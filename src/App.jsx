@@ -7,14 +7,11 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <p>Edit <code>src/App.jsx</code> and save to test HMR</p>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <Box text = 'Box'/>
       <Box text = 'String' />
